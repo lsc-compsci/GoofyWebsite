@@ -1,0 +1,76 @@
+/*external css file*/
+@keyframes wavey
+{
+    0% {transform: translateY(0);}
+    50% { transform: translateY(-10px);}
+    100% {transform: translateY(0);}
+}
+@keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+    }
+    to 
+    {
+        opacity: 1;
+    } 
+}
+.fade-in-effect
+{
+    animation: fadeIn 2.2s ease-in-out;
+}
+
+.wave-effect
+{
+    animation: wavey 1.5s ease-in-out infinite;
+}
+
+.font-class-head
+{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.center
+{
+    text-align: center;
+}
+
+a:link, a:visited
+{
+    background-color: wheat;
+    color:black;
+    border: 1px solid black;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active 
+{
+    background-color: #fff7c6;
+}
+
+.paragraph-box
+{
+    width: 60%;
+    border: 1px solid #373737 ;
+    padding: 5px 1%;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: #eeeed7;
+}
+
+.slideshow-container
+{
+    position: relative;
+}
+
+.slideshow-img
+{
+    display: none;
+    max-width: 100%;
+    height: auto;
+}
